@@ -1,0 +1,32 @@
+.header{
+    display:flex;
+    flex-wrap:wrap;
+}
+.text{
+    text-align: center;
+    padding-left:20px;
+}
+.header .number{
+    flex-grow: 1;
+    flex-basis: 150px;
+}
+.header .name{
+    flex-grow: 3;
+    flex-basis: 150px;
+}
+.header .log{
+    flex-grow: 1;
+    flex-basis: 150px;
+
+}
+.log .text{
+    padding-left: 50%;
+}
+.name .text::before{
+    content:"Pet ";
+    color:red;
+}
+.number .text::after{
+    content:" ежедневно с 09:00 до 22:00";
+    font-size: 11px;
+}
