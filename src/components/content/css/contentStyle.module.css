@@ -1,5 +1,4 @@
 .menu *{
-
     margin:0;
     padding:0;
 }
@@ -51,4 +50,26 @@
 }
 .menu li ul li .link{
     text-transform: none;
+}
+.navigator{
+    background-color: NavajoWhite;
+}
+.link{
+    color:white;
+    text-decoration:none;
+}
+.nav li{
+    padding:5px;
+    font-size: 20px;
+    margin:auto;
+    list-style-type: none;
+}
+.link:hover{
+    color: RosyBrown;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin:auto;
 }

@@ -2,10 +2,10 @@ import React , {Component} from 'react';
 import c from "./css/contentStyle.module.css";
 import Menu from "./menu.js";
 import { Route, Link} from "react-router-dom";
-import Catalog from "./catalog/catalog";
-import Blog from "./blog/blog";
-import Delivery from "./delivery/delivery";
-import Compare from "./compare/compare";
+import Catalog from "./catalog";
+import Blog from "./blog";
+import Delivery from "./delivery";
+import Compare from "./compare";
 
 export default class Navigator extends Component{
     constructor(props){

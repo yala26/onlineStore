@@ -26,6 +26,7 @@ export default class Navigator extends Component {
                     <li><Link className={`${c.link}`} to={"compare"}>Compare</Link></li>
                 </ul>
             </nav>
+
         )
     }
 }
